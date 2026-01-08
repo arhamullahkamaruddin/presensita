@@ -1,0 +1,389 @@
+html, body {
+    overscroll-behavior: none;
+}
+
+.nav-link.active {
+    color: #1D3EA9 !important;
+    font-weight: 600;
+}
+
+.navbar .nav-link {
+    color: #000000;
+}
+
+.navbar .nav-link:hover {
+    color: #1D3EA9;
+}
+
+.hero-section {
+    min-height: 90vh;
+    background: url("../image/hero.png") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.hero-title {
+    font-size: 42px;
+    font-weight: 700;
+    color: #1D3EA9;
+    margin-bottom: 16px;
+}
+
+.hero-desc {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 24px;
+    max-width: 520px;
+}
+
+.hero-btn {
+    background-color: #1D3EA9;
+    color: #FFFFFF;
+    padding: 10px 28px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.hero-btn:hover {
+    background-color: #1632cc;
+    color: #ffffff;
+}
+
+.feature-section {
+    padding: 60px 0;
+    background-color: #ffffff;
+}
+
+.feature-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px 20px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.feature-icon {
+    font-size: 60px;
+    color: #1D3EA9;
+    margin-bottom: 15px;
+}
+
+.feature-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+}
+
+.benefit-section {
+    padding: 80px 0;
+    background: 
+    url("../image/feature.png") no-repeat center center;
+    background-size: cover;
+}
+
+.benefit-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.benefit-subtitle {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.benefit-list {
+    list-style: disc;
+    padding-left: 18px;
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-bottom: 24px;
+}
+
+.benefit-list li {
+    margin-bottom: 6px;
+}
+
+.benefit-btn {
+    background-color: #1D3EA9;
+    color: #FFFFFF;
+    padding: 10px 26px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.benefit-btn:hover {
+    background-color: #1632cc;
+    color: #ffffff;
+}
+
+.benefit-mockup {
+    max-width: 360px;
+}
+
+.industry-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+.industry-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 6px;
+}
+
+.industry-subtitle {
+    font-size: 18px;
+    color: #6b7280;
+}
+
+.industry-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px 20px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.industry-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.industry-icon {
+    font-size: 60px;
+    color: #1D3EA9;
+    margin-bottom: 14px;
+}
+
+.industry-text {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+}
+
+.pricing-section {
+    padding-bottom: 80px;
+}
+
+.pricing-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* =========================
+   PRICING CARD
+========================= */
+.pricing-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 28px 22px;
+    text-align: center;
+    height: 100%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.12);
+}
+
+/* =========================
+   TEXT
+========================= */
+.pricing-name {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1D3EA9;
+    margin-bottom: 12px;
+}
+
+.pricing-price {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+
+.pricing-price span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b7280;
+}
+
+/* =========================
+   LIST
+========================= */
+.pricing-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.pricing-list li {
+    margin-bottom: 8px;
+    padding-left: 22px;
+    position: relative;
+}
+
+.pricing-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #22c55e;
+    font-weight: bold;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.pricing-btn {
+    background-color: #1D3EA9;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 22px;
+    border-radius: 20px;
+}
+
+.pricing-btn:hover {
+    background-color: #1632cc;
+    color: #ffffff;
+}
+
+/* =========================
+   CTA SECTION
+========================= */
+.cta-section {
+    padding: 0 0 80px 0;
+    background-color: #ffffff;
+}
+
+/* =========================
+   TEXT
+========================= */
+.cta-title {
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* =========================
+   BUTTON
+========================= */
+.cta-btn {
+    background-color: #1D3EA9;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 26px;
+    border-radius: 20px;
+}
+
+.cta-btn:hover {
+    background-color: #1632cc;
+    color: #ffffff;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.footer-top {
+    background-color: #DDE2F1;
+}
+
+.footer-link {
+    color: #000000;
+    text-decoration: none;
+}
+
+.footer-link:hover {
+    color: #1D3EA9;
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    background-color: #1D3EA9;
+}
+
+/* =========================
+   RESPONSIVE (MOBILE ≤ 768px)
+========================= */
+@media (max-width: 768px) {
+
+    /* =========================
+       HERO SECTION
+    ========================= */
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .hero-desc {
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-section {
+        text-align: center;
+    }
+
+    /* =========================
+       BENEFIT SECTION
+    ========================= */
+    .benefit-title {
+        font-size: 22px;
+    }
+
+    .benefit-section {
+        text-align: center;
+    }
+
+    .benefit-list {
+        text-align: left;
+        display: inline-block;
+    }
+
+    /* =========================
+       INDUSTRY SECTION
+    ========================= */
+    .industry-title {
+        font-size: 22px;
+    }
+
+    .industry-section {
+        padding: 60px 0;
+    }
+
+    /* =========================
+       PRICING SECTION
+    ========================= */
+    .pricing-title {
+        font-size: 22px;
+    }
+
+    /* =========================
+       CTA SECTION
+    ========================= */
+    .cta-title {
+        font-size: 20px;
+    }
+}

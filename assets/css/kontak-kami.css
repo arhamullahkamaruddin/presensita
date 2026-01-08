@@ -1,0 +1,229 @@
+/* =========================
+   PAGE HEADER
+========================= */
+.page-header {
+    min-height: 580px;
+    position: relative;
+    background: url("../image/contact.png") no-repeat center center;
+    background-size: cover;
+}
+
+/* =========================
+   BREADCRUMB (ATAS)
+========================= */
+.breadcrumb-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.breadcrumb-wrapper .breadcrumb-link {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.breadcrumb-wrapper .breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-wrapper .breadcrumb-link.active {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.breadcrumb-separator {
+    margin: 0 6px;
+}
+
+/* =========================
+   CONTENT (TENGAH)
+========================= */
+.page-header-content {
+    min-height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.page-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.page-desc {
+    font-size: 18px;
+    max-width: 520px;
+    color: #e5e7eb;
+}
+
+/* =========================
+   CONTACT SECTION
+========================= */
+.contact-section {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+/* =========================
+   TITLE
+========================= */
+.contact-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* =========================
+   CONTACT CARD
+========================= */
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 30px 26px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    height: 100%;
+}
+
+/* =========================
+   CONTACT ITEM
+========================= */
+.contact-item {
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+}
+
+.contact-item i {
+    font-size: 18px;
+    color: #1D3EA9;
+    margin-top: 4px;
+}
+
+.contact-label {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.contact-value {
+    font-size: 14px;
+    margin: 0;
+    color: #374151;
+}
+
+.contact-card hr {
+    margin: 14px 0;
+    opacity: 0.4;
+}
+
+/* =========================
+   MAP
+========================= */
+.map-wrapper {
+    width: 100%;
+    height: 100%;
+    min-height: 380px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+/* =========================
+   CONSULT CTA SECTION
+========================= */
+.consult-section {
+    padding: 120px 0;
+    background: url("../image/consultation.png") no-repeat center center;
+    background-size: cover;
+}
+
+/* =========================
+   CONTENT
+========================= */
+.consult-content {
+    color: #ffffff;
+}
+
+/* =========================
+   ICON
+========================= */
+.consult-icon {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+/* =========================
+   PHONE
+========================= */
+.consult-phone {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+/* =========================
+   TEXT
+========================= */
+.consult-text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.consult-text span {
+    font-size: 16px;
+    opacity: 0.9;
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+    .page-header {
+        min-height: 300px;
+    }
+
+    .breadcrumb-wrapper {
+        text-align: center;
+        top: 15px;
+    }
+
+    .page-header-content {
+        text-align: center;
+    }
+
+    .page-desc {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .consult-section {
+        padding: 70px 0;
+    }
+
+    .consult-phone {
+        font-size: 18px;
+    }
+
+    .consult-text {
+        font-size: 14px;
+    }
+
+    .contact-title {
+        font-size: 22px;
+    }
+
+    .map-wrapper {
+        min-height: 300px;
+    }
+}

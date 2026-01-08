@@ -1,0 +1,98 @@
+body {
+    min-height: 100vh;
+    background: url("../image/login-signin.png") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.register-card {
+    width: 100%;
+    max-width: 540px;
+    background-color: #ffffff;
+    border-radius: 14px;
+    padding: 30px 28px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+.register-card img {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.form-label {
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.form-control,
+.form-select {
+    height: 38px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.form-control::placeholder {
+    font-size: 13px;
+    color: #999;
+}
+
+textarea.form-control {
+    font-size: 14px;
+    padding: 8px 10px;
+}
+
+.package-info {
+    font-size: 13px;
+    color: #555;
+}
+
+.bi-exclamation-circle-fill {
+    font-size: 14px;
+    color: #1e40ff;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #1D3EA9;
+    border: none;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+}
+
+.btn-primary:hover {
+    background-color: #1632cc;
+}
+
+.register-footer {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.register-footer a {
+    text-decoration: none;
+    color: #1D3EA9;
+}
+
+.register-footer a:hover {
+    text-decoration: underline;
+}
+
+.register-copyright {
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    margin-top: 6px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    font-size: 13px;
+}

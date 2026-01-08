@@ -1,0 +1,287 @@
+/* =========================
+   PAGE HEADER
+========================= */
+.page-header {
+    min-height: 580px;
+    position: relative;
+    background: url("../image/guide.png") no-repeat center center;
+    background-size: cover;
+}
+
+/* =========================
+   BREADCRUMB (ATAS)
+========================= */
+.breadcrumb-wrapper {
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    right: 0;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.breadcrumb-wrapper .breadcrumb-link {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.breadcrumb-wrapper .breadcrumb-link:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb-wrapper .breadcrumb-link.active {
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.breadcrumb-separator {
+    margin: 0 6px;
+}
+
+/* =========================
+   CONTENT (TENGAH)
+========================= */
+.page-header-content {
+    min-height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.page-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.page-desc {
+    font-size: 18px;
+    max-width: 520px;
+    color: #e5e7eb;
+}
+
+/* =========================
+   GUIDE SECTION
+========================= */
+.guide-section {
+    padding: 80px 0;
+}
+
+/* =========================
+   GUIDE CARD
+========================= */
+.guide-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.guide-thumb {
+    height: 140px;
+    background:  url("../image/guide-card.png") no-repeat center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guide-body {
+    padding: 16px;
+}
+
+.guide-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.guide-desc {
+    font-size: 15px;
+    color: #6b7280;
+    margin-bottom: 10px;
+}
+
+.guide-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+}
+
+.guide-meta a {
+    text-decoration: none;
+    color: #1D3EA9;
+}
+
+/* =========================
+   SIDEBAR
+========================= */
+.guide-sidebar {
+    position: sticky;
+    top: 90px;
+}
+
+.sidebar-box {
+    background-color: #ffffff;
+    padding: 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+}
+
+.sidebar-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+/* =========================
+   SEARCH
+========================= */
+.search-box {
+    position: relative;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 8px 34px 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #d1d5db;
+    font-size: 14px;
+}
+
+.search-box i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #6b7280;
+}
+
+/* =========================
+   SIDEBAR LIST
+========================= */
+.sidebar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+.sidebar-list li {
+    padding: 6px 0;
+    border-bottom: 1px solid #e5e7eb;
+    cursor: pointer;
+}
+
+.sidebar-list li:last-child {
+    border-bottom: none;
+}
+
+/* =========================
+   GUIDE BOTTOM NAV
+========================= */
+.guide-bottom-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e7eb;
+    padding-top: 20px;
+    margin-top: 40px;
+    gap: 20px;
+}
+
+/* =========================
+   NAV ITEM
+========================= */
+.guide-nav-item {
+    text-decoration: none;
+    color: #000000;
+    max-width: 48%;
+}
+
+.guide-nav-item strong {
+    display: block;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* =========================
+   LABEL
+========================= */
+.nav-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    color: #9ca3af;
+    margin-bottom: 4px;
+}
+
+/* =========================
+   ALIGNMENT
+========================= */
+.guide-nav-item.next {
+    text-align: right;
+}
+
+/* =========================
+   HOVER
+========================= */
+.guide-nav-item:hover strong {
+    text-decoration: underline;
+}
+
+/* =========================
+   GUIDE DETAIL TITLE
+========================= */
+.guide-detail-title {
+    font-size: 28px;
+    font-weight: 700;
+    color: #374151;
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 768px) {
+    .page-header {
+        min-height: 300px;
+    }
+
+    .breadcrumb-wrapper {
+        text-align: center;
+        top: 15px;
+    }
+
+    .page-header-content {
+        text-align: center;
+    }
+
+    .page-desc {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .guide-sidebar {
+        position: static;
+    }
+
+    .guide-bottom-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .guide-nav-item {
+        max-width: 100%;
+    }
+
+    .guide-nav-item.next {
+        text-align: center;
+    }
+}
