@@ -245,6 +245,12 @@
     margin-bottom: 10px;
 }
 
+/* =========================
+   SEARCH MOBILE
+========================= */
+.guide-search-mobile {
+    padding: 20px 0 0;
+}
 
 /* =========================
    MOBILE
@@ -283,5 +289,17 @@
 
     .guide-nav-item.next {
         text-align: center;
+    }
+
+    .guide-sidebar .search-box {
+        display: none;
+    }
+
+    .guide-search-mobile {
+        padding-bottom: 10px;
+    }
+
+    .guide-section {
+        padding-top: 10px;
     }
 }
