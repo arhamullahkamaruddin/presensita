@@ -9,36 +9,6 @@
 }
 
 /* =========================
-   BREADCRUMB (ATAS)
-========================= */
-.breadcrumb-wrapper {
-    position: absolute;
-    top: 20px;
-    left: 0px;
-    right: 0;
-    font-size: 18px;
-    color: #e5e7eb;
-}
-
-.breadcrumb-wrapper .breadcrumb-link {
-    color: #e5e7eb;
-    text-decoration: none;
-}
-
-.breadcrumb-wrapper .breadcrumb-link:hover {
-    text-decoration: underline;
-}
-
-.breadcrumb-wrapper .breadcrumb-link.active {
-    color: #ffffff;
-    font-weight: 500;
-}
-
-.breadcrumb-separator {
-    margin: 0 6px;
-}
-
-/* =========================
    CONTENT (TENGAH)
 ========================= */
 .page-header-content {
